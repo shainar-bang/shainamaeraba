@@ -1,0 +1,11 @@
+let grade = 85
+console.log("Enter your score:", grade)
+if (grade >= 90) {
+    console.log("Execellent")
+} else if (grade >= 80 & grade <= 89) {
+    console.log("Good")
+} else if (grade >= 70 & grade <= 79) {
+    console.log("Fair")
+} else {
+    console.log("Needs Improvement")
+}
